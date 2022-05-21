@@ -6,7 +6,9 @@ import LoginPage from '../../pages/Login/Login.js'
 function Navbar() {
     return (
         <nav className="navBar">
-            <img src="./logo.png" alt="TexSum Logo" className='navBarLogo' />
+
+            <Link to="/"><img src="./logo.png" alt="TexSum Logo" className='navBarLogo'></img></Link>
+
             <ul className="navContent">
                 <li>
                     <Link to="/">Home</Link>
@@ -21,9 +23,13 @@ function Navbar() {
                     <Link to=" ">Service</Link>
                 </li>
             </ul>
-            <button className="loginButton" href={LoginPage}>
-                Log In
-            </button>
+
+            <Link to="/login">
+                <button className="loginButton" href={LoginPage}>
+                    Log In
+                </button>
+            </Link>
+
         </nav>
     )
 }
