@@ -1,0 +1,72 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background: linear-gradient(135deg, #56E8F2, #5B86E5);
+  
+}
+
+.navBarLogo{
+  height:45px;  
+  width: 145px;
+}
+
+
+.navContent li{
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.navContent li a{
+  transition: all 0.3s ease 0s;
+}
+
+a{
+  position: relative;
+  text-decoration: none;
+  color: #ededed;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+a:after{
+  content: "";
+  position: absolute;
+  background-color: white;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+a:hover{
+  color: white;
+}
+
+a:hover:after{
+  width: 100%;
+}
+
+.loginButton{
+  background: #3D64FF;
+  border: none;
+  cursor: pointer;
+  border-radius: 45px;
+  color: white;
+  font-size: 18px;
+  height: 35px;
+  width: 100px;
+}
+
+.loginButton:hover{
+  background-color: white;
+  color: #3D64FF;
+  transition: 0.3s;
+}
