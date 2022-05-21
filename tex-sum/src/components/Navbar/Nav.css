@@ -9,14 +9,12 @@
   align-items: center;
   padding: 20px 10%;
   background: linear-gradient(135deg, #56E8F2, #5B86E5);
-  
 }
 
 .navBarLogo{
   height:45px;  
   width: 145px;
 }
-
 
 .navContent li{
   display: inline-block;
