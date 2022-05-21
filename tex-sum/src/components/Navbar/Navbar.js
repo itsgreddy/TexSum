@@ -5,10 +5,12 @@ import './Nav.css'
 function Navbar() {
     return (
         <nav className="navBar">
-
-            <Link to="/">
-                <img src="./logo.png" alt="TexSum Logo" className='navBarLogo'></img>
-            </Link>
+      
+            <button className='logo-button'>
+                <Link to="/"  className="nav-logo-link">
+                    <img src="./logo.png" alt="TexSum Logo" className='navBarLogo' />
+                </Link>
+            </button>
 
             <ul className="navContent">
                 <li>
@@ -30,7 +32,6 @@ function Navbar() {
                     Log In
                 </button>
             </Link>
-
         </nav>
     )
 }

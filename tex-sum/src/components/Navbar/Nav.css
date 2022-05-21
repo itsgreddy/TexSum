@@ -11,6 +11,13 @@
   background: linear-gradient(135deg, #56E8F2, #5B86E5);
 }
 
+.logo-button{
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: poin;
+}
+
 .navBarLogo{
   height:45px;  
   width: 145px;
@@ -33,7 +40,7 @@ a{
   letter-spacing: 0.5px;
 }
 
-a:after{
+.navContent li a:after{
   content: "";
   position: absolute;
   background-color: white;
@@ -44,11 +51,11 @@ a:after{
   transition: 0.3s;
 }
 
-a:hover{
+.navContent li a:hover{
   color: white;
 }
 
-a:hover:after{
+.navContent li a:hover:after{
   width: 100%;
 }
 
