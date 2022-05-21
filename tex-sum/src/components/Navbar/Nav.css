@@ -63,11 +63,11 @@ a{
   background: #3D64FF;
   border: none;
   cursor: pointer;
-  border-radius: 45px;
+  border-radius: 15px;
   color: white;
   font-size: 18px;
-  height: 35px;
-  width: 100px;
+  height: 40px;
+  width: 85px;
 }
 
 .loginButton:hover{
