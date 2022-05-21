@@ -6,10 +6,33 @@ import Contact from "./pages/Contact/Contact"
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { useState, useEffect } from 'react'
 
 function App() {
+
+  const [data, setData] = useState([{}])
+
+  useEffect(() => {
+    fetch("/texsum").then(
+      res => res.json()
+    ).then(
+      data => {
+        setData(data)
+        console.log(data)
+      }
+    )
+  }, [])
+
   return (
     <>
+
+      {(typeof data.texsum === 'undefined') ? (
+        <p>Loading. Please Wait</p>
+      ) : (
+        data.texsum.map((texsum, i) => (
+          <p key={i}>{texsum}</p>
+        ))
+      )}
 
       <Router>
         <Navbar />
