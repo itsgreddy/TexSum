@@ -1,3 +1,7 @@
+.landing{
+  
+}
+
 .hero-container{
   height: 100%;
   width: 100%;  
@@ -18,4 +22,14 @@
 .hero-container > p {
   color: antiquewhite;
   font-size: 200%;
+}
+
+.howwork{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 90%;
+    width: 75%;
+    height: 50vh;
+    margin: 0 auto;
 }
