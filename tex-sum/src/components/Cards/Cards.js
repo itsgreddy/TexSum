@@ -38,6 +38,7 @@ function Cards() {
                     </ul>
                 </div>
             </div>
+            <h2>Many more..</h2>
         </div>
     );
 }

@@ -7,10 +7,9 @@ function landing() {
         <div className="landing">
             <div className='hero-container'>
                 <h1>HOW DOES IT WORK?</h1>
-                <p>Find it out!</p>
+                <h2>Find it out!</h2>
                 <div className="howwork">
-                    <h1>Bla Bla.... This is how we work Nigga!</h1>
-
+                    <h3>Bla Bla.... This is how we work Nigga!</h3>
                 </div>
                 <Cards />
             </div>
