@@ -5,9 +5,9 @@ import './Nav.css'
 function Navbar() {
     return (
         <nav className="navBar">
-      
+
             <button className='logo-button'>
-                <Link to="/"  className="nav-logo-link">
+                <Link to="/" className="nav-logo-link">
                     <img src="./logo.png" alt="TexSum Logo" className='navBarLogo' />
                 </Link>
             </button>
