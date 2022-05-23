@@ -1,10 +1,12 @@
 import React from 'react';
 import Cards from '../../components/Cards/Cards';
+import Summarize from '../../components/Summarize/Summarize'
 import './Landing.css'
 
 function landing() {
     return (
         <div className="landing">
+            <Summarize />
             <div className='hero-container'>
                 <h1>HOW DOES IT WORK?</h1>
                 <h2>Find it out!</h2>
@@ -14,6 +16,7 @@ function landing() {
                 <Cards />
             </div>
         </div>
+
 
     )
 }

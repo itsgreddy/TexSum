@@ -1,0 +1,22 @@
+.sum{
+    padding: 6%;
+}
+
+h1 {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 250%;
+    font-weight:bolder;
+    margin-top: 1%
+  }
+
+  
+.url {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 90%;
+    width: 75%;
+    margin: 0 auto;
+  }
+  

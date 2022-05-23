@@ -4,6 +4,7 @@ import './Nav.css'
 
 function Navbar() {
     return (
+
         <nav className="navBar">
 
             <button className='logo-button'>
@@ -32,6 +33,7 @@ function Navbar() {
                     Log In
                 </button>
             </Link>
+
         </nav>
     )
 }
