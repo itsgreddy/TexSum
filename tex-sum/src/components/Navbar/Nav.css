@@ -21,12 +21,6 @@
   backdrop-filter: blur(15px);
 }
 
-.logo-button{
-  padding: 0;
-  border: none;
-  background: none;
-  cursor: pointer;
-}
 
 .navBarLogo{
   height:45px;  
