@@ -1,5 +1,15 @@
 .sum{
-    padding: 6%;
+    padding: 1%;
+}
+
+.contents{
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container{
+  align-items: center;
 }
 
 h1 {
@@ -7,10 +17,9 @@ h1 {
     color: antiquewhite;
     font-size: 250%;
     font-weight:bolder;
-    margin-top: 1%
+    margin-top: 8%;
   }
 
-  
 .url {
     display: flex;
     flex-flow: column;
@@ -19,4 +28,26 @@ h1 {
     width: 75%;
     margin: 0 auto;
   }
+
+.sum_glass{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  border-radius: 10px; 
+  /* /* border: 1px solid rgba(255, 255, 255, 0.1); */
+  /* box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.37); */
+  display: flex;
+  justify-content: center;
+  width: 37%;
+  padding: 3%;
+}
+
+.enter textarea{
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  margin-top: 2%;
+  padding: 1% 1%;
+  border: none;
+  border-radius: 2%;
+  background-color: rgba(255, 255, 255, 0.75);
+  width: 100%;
+}
   
