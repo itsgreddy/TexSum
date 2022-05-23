@@ -4,4 +4,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(to right , #56E8F2 , #5B86E5);
+  }
+
+  h1 {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 250%;
+    font-weight:bolder;
+    margin-top: 1%
   }
