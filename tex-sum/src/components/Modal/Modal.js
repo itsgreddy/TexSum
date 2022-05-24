@@ -16,6 +16,7 @@ function Modal({ closeModal }) {
 
                     <div className="modalFooter">
                         <button className='closeBtn' onClick={() => { closeModal(false) }}>Close</button>
+                        <button className='Language'>Select Language</button>
                     </div>
 
                 </div>
