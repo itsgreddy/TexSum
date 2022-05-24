@@ -89,12 +89,15 @@ form textarea:focus::placeholder{
   font-size: 25px;
 }
 
+.logo-container{
+  display: flex;
+}
+
 .logo-image{
   height: 70px;
 }
 
 .logo-button{
-  padding: 25px;
   background: none;
   border: none;
 }

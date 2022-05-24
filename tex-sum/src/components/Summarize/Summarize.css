@@ -53,13 +53,15 @@ h1 {
 }
 
 .popupBtn,.sumBtn{
-  border: none;
   width: 200px;
   height: 40px;
   border-radius: 6px;
   cursor: pointer;
+  border: 1px solid rgba(250, 235, 215, 0.2);
   color: antiquewhite;
-  background-color: #4A4A4A;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(10px);
 }
 
 /* .summarize{
