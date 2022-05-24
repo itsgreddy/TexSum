@@ -95,4 +95,6 @@ form textarea:focus::placeholder{
 
 .logo-button{
   padding: 25px;
+  background: none;
+  border: none;
 }

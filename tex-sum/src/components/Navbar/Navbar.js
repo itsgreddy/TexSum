@@ -7,11 +7,9 @@ function Navbar() {
         <div className="blur">
             <nav className="navBar">
 
-                <button className='logo-button'>
-                    <Link to="/" className="nav-logo-link">
-                        <img src="./logo.png" alt="TexSum Logo" className='navBarLogo' />
-                    </Link>
-                </button>
+                <Link to="/" className="logo-button">
+                    <img src="./logo.png" alt="TexSum Logo" className='navBarLogo' />
+                </Link>
 
                 <ul className="navContent">
                     <li>
@@ -28,7 +26,7 @@ function Navbar() {
                     </li>
                 </ul>
 
-                <Link to="/login">
+                <Link to="/login" className='logo-button'>
                     <button className="loginButton">
                         Log In
                     </button>
