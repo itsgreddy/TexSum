@@ -10,13 +10,13 @@ function Cards() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem
-                            src='images'
+                            src='github_logo.png'
                             text='Summarizing college students their boring long essays, by saving their time at free of cost. '
                             label='College Students'
                             path='/services'
                         />
                         <CardItem
-                            src='images'
+                            src='twitter_logo.png'
                             text='Helping professors to skim through their multi paged researchs. '
                             label='Professors'
                             path='/services'
@@ -24,13 +24,13 @@ function Cards() {
                     </ul>
                     <ul className='cards__items'>
                         <CardItem
-                            src='images'
+                            src='logo.png'
                             text='Saving readers time by summarizing all essential key notes from any particle page. '
                             label='Readers'
                             path='/services'
                         />
                         <CardItem
-                            src='images'
+                            src='instagram_logo.png'
                             text='Helping journalists have a easy way out of reading multiple monotonous articles.'
                             label='Journalists'
                             path='/products'

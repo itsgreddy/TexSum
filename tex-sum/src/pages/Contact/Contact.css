@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Questrial&family=Raleway:wght@300;400;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Questrial&family=Raleway:wght@300;400;600;700;800;900&family=Roboto+Serif:opsz,wght@8..144,100;8..144,300;8..144,400;8..144,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Questrial&family=Raleway:wght@300;400;600;700;800;900&family=Roboto+Serif:opsz,wght@8..144,100;8..144,300;8..144,400;8..144,500&family=Roboto:wght@100;300;400;500;700&display=swap');
@@ -9,20 +9,15 @@ body{
   box-sizing: border-box;
 }
 
-.first{
-    min-height: 10vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", "Raleway", "Helvetica";
 }
+
+
+
 body{
   display: flex;
   height: 100vh;
@@ -34,16 +29,16 @@ body{
   color: #fff;
   background: #0D6EFD;
 }
+
 .wrapper{
- 
   width: 60vw;
   height: 70vh;
   background : rgba(255, 255, 255,0.25);
   backdrop-filter: blur(15);
   border-radius: 5px;
   box-shadow: 10px 10px 10px rgba(0, 16, 157, 0.1);
-  
 }
+
 .wrapper header{
   color: #fff;
   font-size: 32px;
@@ -54,7 +49,8 @@ body{
   font-family: Raleway;
   position:relative;
 }
-/* .underline-small::after{
+
+.underline-small::after{
   content:'';
   height:10px;
   width:20%;
@@ -62,20 +58,24 @@ body{
   position:absolute;
   left:calc(20% - 10%);
   top:75%;
-} */
+}
+
 .wrapper form{
   margin: 35px 30px;
 }
+
 .wrapper form.disabled{
   pointer-events: none;
   opacity: 0.7;
 }
+
 form .dbl-field{
   
   display: flex;
   margin-bottom: 25px;
   justify-content: space-between;
 }
+
 .dbl-field .field{
   
   height: 50px;
@@ -83,6 +83,7 @@ form .dbl-field{
   position: relative;
   width: calc(100% / 2 - 13px);
 }
+
 .wrapper form i{
   position: absolute;
   top: 50%;
@@ -92,6 +93,7 @@ form .dbl-field{
   pointer-events: none;
   transform: translateY(-50%);
 }
+
 form .field input{
   background-color: #ffffff96;
   width: 100%;
@@ -101,8 +103,8 @@ form .field input{
   font-size: 16px;
   border-radius: 5px;
   border: 1px solid rgba(15, 8, 8, 0);
-  
 }
+
 form .message textarea{
   background-color: #ffffff96;
   width: 100%;
@@ -113,26 +115,32 @@ form .message textarea{
   border-radius: 5px;
   border: 1px solid rgba(204, 204, 204, 0.201);
 }
+
 .field input::placeholder,
 .message textarea::placeholder{
   color: rgba(21, 19, 19, 0.568);
 }
+
 .field input:focus,
 .message textarea:focus{
   padding-left: 47px;
   border: 2px solid #0D6EFD;
 }
+
 .field input:focus ~ i,
 .message textarea:focus ~ i{
   color: #0D6EFD;
 }
+
 form .message{
   position: relative;
 }
+
 form .message i{
   top: 30px;
   font-size: 20px;
 }
+
 form .message textarea{
   min-height: 130px;
   max-height: 230px;
@@ -140,17 +148,21 @@ form .message textarea{
   min-width: 100%;
   padding: 15px 20px 0 48px;
 }
+
 form .message textarea::-webkit-scrollbar{
   width: 0px;
 }
+
 .message textarea:focus{
   padding-top: 14px;
 }
+
 form .button-area{
   margin: 25px 0;
   display: flex;
   align-items: center;
 }
+
 .button-area button{
   color: #fff;
   border: none;
@@ -161,23 +173,20 @@ form .button-area{
   padding: 13px 25px;
   background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgb(2, 77, 251) 100%);
   transition: background 0.9s ease ;
-  
-
-  
-  
 }
+
  .button-area button:hover{
   background:#0331fff6;
   border: none;
-
- box-shadow: 2px 2px 2px rgba(0, 16, 157, 0.1);
-
+  box-shadow: 2px 2px 2px rgba(0, 16, 157, 0.1);
 } 
+
 .button-area span{
   font-size: 17px;
   margin-left: 30px;
   display: none;
 }
+
 @media (max-width: 600px){
   .wrapper header{
     text-align: center;
@@ -210,4 +219,4 @@ form .button-area{
     margin: 20px 0 0;
     text-align: center;
   }
-}
+} */

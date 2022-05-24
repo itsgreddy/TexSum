@@ -15,10 +15,16 @@
   align-items: center;
   /* padding: 0.2% 0.2%; */
   width: 100%;
-
   z-index: 1;
   background : rgba(255, 255, 255,0.25);
   backdrop-filter: blur(15px);
+}
+
+a{
+  position: relative;
+  padding: 0.1% 20px;
+  display: inline-block;
+  color:antiquewhite;
 }
 
 .logo-button{
