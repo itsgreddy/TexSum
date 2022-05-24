@@ -20,26 +20,21 @@ h1 {
     margin-top: 8%;
   }
 
-.url {
+.urlBar{
+    margin: 0 auto;
+    margin-top: 1%;
     display: flex;
     flex-flow: column;
     align-items: center;
-    max-width: 90%;
-    width: 75%;
-    margin: 0 auto;
   }
 
-.sum_glass{
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-  backdrop-filter: blur(10px);
-  border-radius: 10px; 
-  /* /* border: 1px solid rgba(255, 255, 255, 0.1); */
-  /* box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.37); */
-  display: flex;
-  justify-content: center;
-  width: 37%;
-  padding: 3%;
-}
+.url {
+    width: 30%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 25px;
+    padding: 0.5%;
+  }
 
 .enter textarea{
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -50,4 +45,34 @@ h1 {
   background-color: rgba(255, 255, 255, 0.75);
   width: 100%;
 }
+
+.popup,.summarize{
+  position: relative;
+  margin: 3%;
+  border: none;
+}
+
+.popupBtn,.sumBtn{
+  border: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: antiquewhite;
+  background-color: #4A4A4A;
+}
+
+/* .summarize{
+  margin-left: 5%;
+} */
+
+.popup{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
   
+.output{
+  display: flex;
+  justify-content:center;
+}
