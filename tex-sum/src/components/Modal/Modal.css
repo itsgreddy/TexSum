@@ -44,16 +44,36 @@
 
 .modalFooter{
     display: flex;
-    justify-content:center;
+    justify-content:space-around;
     margin: 3%;
 }
 
 .closeBtn{
-    border: none;
+  border: none;
   width: 200px;
   height: 40px;
   border-radius: 6px;
   cursor: pointer;
   color: antiquewhite;
-  background-color: #4A4A4A;
+  background: linear-gradient(to right , #56E8F2 , #5B86E5);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
+
+.Language{
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: antiquewhite;
+    background: linear-gradient(to right , #56E8F2 , #5B86E5);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+textarea:focus::placeholder{
+    padding-left: 5px;
+    color: black;
+    transition: all 0.3s ease;
+  }
