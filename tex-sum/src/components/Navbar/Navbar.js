@@ -19,10 +19,10 @@ function Navbar() {
                         <a href="#smoothscroll-how">How does it work?</a>
                     </li>
                     <li>
-                        <Link to="/contact">Contact Us</Link>
+                        <a href="#smoothscroll-service">Service</a>
                     </li>
                     <li>
-                        <a href="#smoothscroll-service">Service</a>
+                        <Link to="/contact">Contact Us</Link>
                     </li>
                 </ul>
 
