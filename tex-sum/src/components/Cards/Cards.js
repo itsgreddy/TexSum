@@ -4,7 +4,7 @@ import CardItem from './CardItem';
 
 function Cards() {
     return (
-        <div className='cards'>
+        <div className='cards' id='smoothscroll-service'>
             <h1>Who is TEXSUM for?</h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>

@@ -12,10 +12,9 @@
   backdrop-filter: blur(10px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
 
   /* styling */
-  display: flex;
   justify-content: center;
   width: 360px;
   padding: 3%;
@@ -75,7 +74,7 @@ h3{
 
 form input:focus::placeholder,
 form textarea:focus::placeholder{
-  padding-left: 5px;
+  padding-left: 15px;
   color: black;
   transition: all 0.3s ease;
 }
@@ -91,6 +90,7 @@ form textarea:focus::placeholder{
 
 .logo-container{
   display: flex;
+  justify-content: center;
 }
 
 .logo-image{

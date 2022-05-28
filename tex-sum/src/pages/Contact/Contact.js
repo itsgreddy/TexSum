@@ -1,60 +1,79 @@
 import React from 'react';
 import './Contact.css'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import styled from "styled-components"
+import {Link} from 'react-router-dom'
 
 function contact() {
     return (
-        <div class="wrapper">
-            <header><h1 class="underline-small">Contact Us</h1></header>
-            <form action="#">
-                <div class="dbl-field">
-                    <div class="field">
-                        <input type="text" name="name" placeholder="Enter your name"></input>
-                        {/* <FontAwesomeIcon icon="fa-solid fa-user" /> */}
+        <div className='contactUs'>
+            <div className="glass">
+                <div className="text">
+                    <h1>Contact Us</h1>
+                    <div className="underline"></div>
+                    <p>Do you have a question, need help with a problem ?
+                        Or do you simply want to communicate with us ?
+                        Please feel free to contact us.
+                    </p>
+                </div>
+                <div className="split">
+                    <div className="left-container">
+                        <div className="form-container">
+                            <div className="row">
+                                <div className="input-container">
+                                    <h3>Name</h3>
+                                        <input type="text" placeholder='Name' className='full-input-field'/>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="input-container first-input-field" >
+                                    <h3>Phone Number</h3>
+                                    <input type="number" placeholder='Phone Number'  className='half-input-field'/>
+                                </div>
+                                <div className="input-container">
+                                    <h3>Email Address</h3>
+                                    <input type="email" placeholder='Email Address' className='half-input-field'/>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="input-container">
+                                    <h3>Company Name (optional)</h3>
+                                    <input type="text" placeholder='Company Name' className='full-input-field'/>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="input-container">
+                                    <h3>Message</h3>
+                                    <textarea cols="30" rows="10" placeholder='Enter your message here...' className='full-input-field'></textarea>
+                                </div>
+                            </div>
+                        </div>  
                     </div>
-                    <div class="field">
-                        <input type="text" name="email" placeholder="Enter your email"></input>
-                        {/* <FontAwesomeIcon icon="fa-solid fa-envelope" /> */}
+                    <div className="right-container">
+                        <h2>Lets Connect!</h2>
+                        <div className="logo-container">
+                            <button className='logo-button'>
+                                <Link to="/" >
+                                    <img src="./twitter_logo.png" alt="Twitter Logo" className='logo-image'/>
+                                </Link>
+                            </button>
+                            <button className='logo-button'>
+                                <Link to="/">
+                                    <img src="./instagram_logo.png" alt="Instagram Logo" className='logo-image'/>
+                                </Link>
+                            </button>
+                            <button className='logo-button'>
+                                <Link to="/">
+                                    <img src="./linkedin_logo.png" alt="Linked In Logo" className='logo-image'/>
+                                </Link>
+                            </button>
+                        </div>
                     </div>
                 </div>
-                <div class="dbl-field">
-                    <div class="field">
-                        <input type="text" name="phone" placeholder="Enter your phone"></input>
-                        {/* {<FontAwesomeIcon icon="fa-solid fa-phone" />} */}
-                    </div>
-                    <div class="field">
-                        <input type="text" name="website" placeholder="Enter your website"></input>
-                        {/* <FontAwesomeIcon icon="fa-solid fa-browser" /> */}
-                    </div>
-                </div>
-                <div class="message">
-                    <textarea placeholder="Write your message" name="message"></textarea>
-                    {/* <FontAwesomeIcon icon="fa-solid fa-message-dots" /> */}
-                </div>
-                <div class="button-area">
-                    <button type="submit">Send Message</button>
-                    <span></span>
-                </div>
-            </form>
+                <Link to="/" className='contactus-button-link'>
+                    <button className='contactus-now-button'>Contact us now!</button>
+                </Link>
+            </div>
         </div>
     )
 }
-
-
-// const Container = styled.div`
-//  display : flex;
-//  justify-content:center;
-//  align-items : centerr;
-//  height: 100vh;
-//  background: linear-gradient(to right , #ff66a00 , #eea979);
-// `;
-
-// const Card = styled.div`
-//  height : 90vh;
-//  width :90vw;
-//  background : rgba(255, 255, 255,0.25);
-//  backdrop-filter: blur(15);
-// `;
 
 export default contact;

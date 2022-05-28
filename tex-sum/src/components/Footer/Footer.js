@@ -21,7 +21,7 @@ function Footer() {
                         </button>
                         <button className='logo-button'>
                             <Link to="/">
-                                <img src="./github_logo.png" alt="Github Logo" className='logo-image'/>
+                                <img src="./linkedin_logo.png" alt="Linked In Logo" className='logo-image'/>
                             </Link>
                         </button>
                     </div>

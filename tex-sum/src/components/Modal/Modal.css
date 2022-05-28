@@ -76,4 +76,84 @@ textarea:focus::placeholder{
     padding-left: 5px;
     color: black;
     transition: all 0.3s ease;
-  }
+}
+
+.language-menu{
+    position: relative;
+}
+
+.language-menu ul{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.language-menu:hover ul{
+    display: block;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 200px;
+}
+
+.selected-language::before{
+    transition: all 0.3s ease;
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.selected-language{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: antiquewhite;
+    background: linear-gradient(to right , #56E8F2 , #5B86E5);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.language-menu ul{
+    margin: 0;
+    padding: 0;
+    color: antiquewhite;
+    background: linear-gradient(to right , #56E8F2 , #5B86E5);
+    backdrop-filter: blur(10px);
+    border: none;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 5pxa;
+}
+
+.language-menu ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.language-menu ul li a{
+    width: 160px;
+    height: 40px;
+}
+
+.language-menu ul li a::after{
+    transition: all 0.3s ease;
+    content: "";
+    display: block;
+    width: 160px;
+    height: 40px;
+}
+
+.language-menu ul li a:hover{
+    border-radius: 5px;
+    border: none;
+    backdrop-filter: blur(100px);
+}

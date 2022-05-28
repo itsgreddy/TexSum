@@ -40,9 +40,20 @@ a{
   width: 145px;
 }
 
+a.anchor {
+  display: block;
+  position: relative;
+  top: -250px;
+  visibility: hidden;
+}
+
 .navContent li{
   display: inline-block;
   padding: 0% 30px;
+}
+
+.link-element{
+  cursor: pointer;
 }
 
 .navContent li a{
