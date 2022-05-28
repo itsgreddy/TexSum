@@ -15,7 +15,7 @@ function Navbar() {
         <div className="blur">
             <nav className="navBar">
 
-                <Link to="/" className="logo-button">
+                <Link to="/" className="logo-button" onClick={scrollUp}>
                     <img src="./logo.png" alt="TexSum Logo" className='navBarLogo' />
                 </Link>
 
