@@ -9,7 +9,7 @@
 
 .navBar{
   position: fixed;
-  overflow: hidden;
+  /* overflow: hidden; */
   display: flex;
   justify-content: space-between;
   align-items: center;

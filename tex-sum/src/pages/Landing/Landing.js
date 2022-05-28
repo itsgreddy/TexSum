@@ -1,10 +1,12 @@
 import React from 'react';
+import BacktoTop from '../../components/BacktoTop/BacktoTop';
 import Cards from '../../components/Cards/Cards';
 import Summarize from '../../components/Summarize/Summarize'
 import './Landing.css'
 
 function landing() {
     return (
+
         <div className="landing" id='/home'>
             <Summarize />
             <div className='hero-container'>
@@ -15,8 +17,8 @@ function landing() {
                 </div>
                 <Cards />
             </div>
+            <BacktoTop />
         </div>
-
 
     )
 }
