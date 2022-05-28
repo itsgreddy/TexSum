@@ -16,10 +16,10 @@ function Navbar() {
                         <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <a href="#smoothscroll-how">How does it work?</a>
+                        <a href="#how-does-it-work">How does it work?</a>
                     </li>
                     <li>
-                        <a href="#smoothscroll-service">Service</a>
+                        <a href="#service">Service</a>
                     </li>
                     <li>
                         <Link to="/contact">Contact Us</Link>
