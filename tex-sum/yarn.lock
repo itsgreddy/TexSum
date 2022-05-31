@@ -7583,6 +7583,11 @@ sass-loader@^12.3.0:
     klona "^2.0.4"
     neo-async "^2.6.2"
 
+sawo@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/sawo/-/sawo-1.0.3.tgz#0ac28804cc232cee6f298ea27c8e1f465ba8e856"
+  integrity sha512-VsHAhW59pg2ebsOXjXON5DVaDXixr1D66BPnqKByZ0oIRmbLGTPb9QqydaNfwztwbsGwg2SUSdxbZLh0ZricNg==
+
 sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.npmjs.org/sax/-/sax-1.2.4.tgz"
