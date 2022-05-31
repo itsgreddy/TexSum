@@ -30,7 +30,7 @@ function Navbar() {
                         <a href="#service">Service</a>
                     </li>
                     <li>
-                        <Link to="/contact">Contact Us</Link>
+                        <Link to="/contact" onClick={scrollUp}>Contact Us</Link>
                     </li>
                 </ul>
 
