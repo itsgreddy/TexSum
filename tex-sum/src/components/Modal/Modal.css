@@ -58,6 +58,7 @@
   background: linear-gradient(to right , #56E8F2 , #5B86E5);
   backdrop-filter: blur(10px);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  font-size: 15px;
 }
 
 .Language{
@@ -93,11 +94,19 @@ textarea:focus::placeholder{
     left: 0;
 }
 
-.language-menu:hover ul{
+.language-menu ul{
     display: block;
     overflow: hidden;
     overflow-y: scroll;
-    height: 200px;
+    height: 190px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.language-menu button:focus + ul{
+    opacity: 1;
+    pointer-events: all;   
 }
 
 .selected-language::before{
@@ -112,6 +121,7 @@ textarea:focus::placeholder{
     align-items: center;
     justify-content: center;
     border: none;
+    font-size: 15px;
     width: 200px;
     height: 40px;
     border-radius: 6px;
@@ -140,6 +150,10 @@ textarea:focus::placeholder{
 }
 
 .language-menu ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
     width: 160px;
     height: 40px;
 }

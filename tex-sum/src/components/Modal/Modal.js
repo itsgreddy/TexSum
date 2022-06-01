@@ -17,52 +17,52 @@ function Modal({ closeModal }) {
                     <div className="modalFooter">
                         <button className='closeBtn' onClick={() => { closeModal(false) }}>Close</button>
                         <div className="language-menu">
-                            <div className="selected-language">
+                            <button className="selected-language">
                                 English
-                            </div>
+                            </button>
 
                             <ul>
                                 <li>
-                                    <a href="">Language 1</a>
+                                    <a href="">Language</a>
                                 </li>
                                 <li>
-                                    <a href="">Language 2</a>
+                                    <a href="">Language</a>
                                 </li>
                                 <li>
-                                    <a href="">Language 3</a>
+                                    <a href="">Language</a>
                                 </li>
                                 <li>
-                                    <a href="">Language 4</a>
+                                    <a href="">Language</a>
                                 </li>
                                 <li>
-                                    <a href="">Language 5</a>
+                                    <a href="">Language</a>
                                 </li>
                                 <li>
-                                    <a href="">Language 6</a>
+                                    <a href="">Language</a>
                                 </li>
                                 <li>
-                                    <a href="">Language 7</a>
+                                    <a href="">Language</a>
                                 </li>
                                 <li>
-                                    <a href="">Language 8</a>
+                                    <a href="">Language</a>
                                 </li>
                                 <li>
-                                    <a href="">Language 9</a>
+                                    <a href="">Language</a>
                                 </li>
                                 <li>
-                                    <a href="">Language 10</a>
+                                    <a href="">Language </a>
                                 </li>
                                 <li>
-                                    <a href="">Language 11</a>
+                                    <a href="">Language </a>
                                 </li>
                                 <li>
-                                    <a href="">Language 12</a>
+                                    <a href="">Language </a>
                                 </li>
                                 <li>
-                                    <a href="">Language 13</a>
+                                    <a href="">Language </a>
                                 </li>
                                 <li>
-                                    <a href="">Language 14</a>
+                                    <a href="">Language </a>
                                 </li>
                             </ul>
                         </div>
