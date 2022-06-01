@@ -20,6 +20,7 @@ function Modal({ closeModal }) {
                             <button className="selected-language">
                                 English
                             </button>
+
                             <ul>
                                 <li>
                                     <a href="">Language</a>

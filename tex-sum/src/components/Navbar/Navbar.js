@@ -3,31 +3,39 @@ import { Link } from 'react-router-dom'
 import './Nav.css'
 
 function Navbar() {
+
+    const scrollUp = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        })
+    }
+
     return (
         <div className="blur">
             <nav className="navBar">
 
-                <Link to="/" className="logo-button">
+                <Link to="/" className="logo-button" onClick={scrollUp}>
                     <img src="./logo.png" alt="TexSum Logo" className='navBarLogo' />
                 </Link>
 
                 <ul className="navContent">
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/" onClick={scrollUp}>Home</Link>
                     </li>
                     <li>
-                        <a href="#smoothscroll-how">How does it work?</a>
+                        <a href="#how-does-it-work">How does it work?</a>
                     </li>
                     <li>
-                        <a href="#smoothscroll-service">Service</a>
+                        <a href="#service">Service</a>
                     </li>
                     <li>
-                        <Link to="/contact">Contact Us</Link>
+                        <Link to="/contact" onClick={scrollUp}>Contact Us</Link>
                     </li>
                 </ul>
 
                 <Link to="/login" className='logo-button'>
-                    <button className="loginButton">
+                    <button className="loginButton" onClick={scrollUp}>
                         Log In
                     </button>
                 </Link>
