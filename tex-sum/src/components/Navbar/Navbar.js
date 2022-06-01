@@ -35,7 +35,7 @@ function Navbar() {
                 </ul>
 
                 <Link to="/login" className='logo-button'>
-                    <button className="loginButton">
+                    <button className="loginButton" onClick={scrollUp}>
                         Log In
                     </button>
                 </Link>
