@@ -2,7 +2,11 @@ import Sawo from 'sawo'
 import { useEffect } from 'react'
 
 const SawoLogin = () => {
+
     useEffect(() => {
+
+        console.log(process.env)
+
         var config = {
             // should be same as the id of the container created on 3rd step
             containerID: 'login',
