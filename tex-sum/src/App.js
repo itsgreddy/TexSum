@@ -26,13 +26,13 @@ function App() {
   return (
     <>
 
-      {/* {(typeof data.texsum === 'undefined') ? (
+      {(typeof data.texsum === 'undefined') ? (
         <p>Loading. Please Wait</p>
       ) : (
         data.texsum.map((texsum, i) => (
           <p key={i}>{texsum}</p>
         ))
-      )} */}
+      )}
 
       <Router>
         <Navbar />
